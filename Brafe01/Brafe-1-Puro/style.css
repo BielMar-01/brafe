@@ -207,3 +207,55 @@ h2.products-mineiro::before {
   padding: 15px 0;
   margin: 20px auto 0px auto;
 }
+
+/* LOCATIONS */
+.locations {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.locations-item {
+  clear: both;
+  margin: 60px auto;
+}
+
+.locations-item::after, .locations-item::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.locations-item img {
+  width: 460px;
+  display: block;
+  float: left;
+  margin: 0 10px;
+}
+
+.locations-item > div {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.locations-item h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.locations-item p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  max-width: 320px;
+  margin-bottom: 40px;
+}
+
+.locations-item a {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: #252525;
+  padding: 10px 20px;
+}
