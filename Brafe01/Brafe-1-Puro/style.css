@@ -10,6 +10,10 @@ body {
   color: #252525;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* MENU */
 .menu {
   background: #252525;
@@ -121,7 +125,7 @@ a.menu-logo {
   font-weight: normal;
   text-align: center;
   padding: 5px 0 10px 0;
-  top: -25px;
+  top: -55px;
   position: relative;
 }
 
@@ -258,4 +262,99 @@ h2.products-mineiro::before {
   border: 3px solid;
   color: #252525;
   padding: 10px 20px;
+}
+
+/* NEWSLETTER */
+.news {
+  background: #e7e4d8;
+  padding: 30px 0
+}
+
+.news-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.news-container:after, .news-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.news-info {
+  width: 460px;
+  margin: 0 10px;
+  float: left;
+}
+
+.news-info h2 {
+  font-size: 2.25em;
+}
+
+.news-info p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.news form {
+  width: 460px;
+  margin: 10px 10px 0 10px;
+  float: left;
+}
+
+.news form label {
+  display: none;
+}
+
+.news input {
+  width: 320px;
+  border: 3px solid #252525;
+  background: none;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  float: left;
+}
+
+.news button {
+  color: #fff;
+  background: #252525;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  width: 140px;
+  padding: 13px 0;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  background: #d6d3c8;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-container::after, .footer-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer p {
+  float: left;
+  margin: 0 10px;
+  font-size: 1.125em;
+  line-height: 1.4em;
+}
+
+.footer img {
+  float: right;
+  margin: 0 10px;
+  display: block;
 }
