@@ -193,3 +193,49 @@ body {
   line-height: 1.4em;
   margin-top: 80px;
 }
+
+/* MEDIA QUERIE */
+
+@media (min-width: 740px) and (max-width: 980px) {
+
+  /* CONTEUDO */
+  .container {
+    max-width: 720px;
+  }
+
+  /* FILTRO */
+  .filtro {
+    width: 220px;
+  }
+
+  /* PRODUTOS */
+  .produtos {
+    width: 460px;
+  }
+
+  .produtos li {
+    width: 220px;
+  }
+}
+
+@media (max-width: 739px) {
+
+  /* CONTEUDO */
+  .container {
+    max-width: 300px;
+  }
+
+  /* FILTRO */
+  .filtro {
+    display: none;
+  }
+
+  /* PRODUTOS */
+  .produtos {
+    width: 300px;
+  }
+
+  .produtos li {
+    width: 140px;
+  }
+}
